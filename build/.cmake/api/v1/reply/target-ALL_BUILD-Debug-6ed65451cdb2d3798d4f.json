@@ -1,0 +1,63 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "generic::@ad64ccd3aa4b211a1874"
+		},
+		{
+			"id" : "generic_static::@ad64ccd3aa4b211a1874"
+		},
+		{
+			"id" : "generic_lib::@ad64ccd3aa4b211a1874"
+		},
+		{
+			"id" : "generic_lib_static::@ad64ccd3aa4b211a1874"
+		},
+		{
+			"id" : "runtime_linked_lib::@be394b1c819308bda8b2"
+		},
+		{
+			"id" : "compilation_time_lik::@be394b1c819308bda8b2"
+		},
+		{
+			"id" : "runtime_link::@be394b1c819308bda8b2"
+		},
+		{
+			"id" : "plugin_impl_one::@bc726beb75a38afb6109"
+		},
+		{
+			"id" : "plugin_impl_two::@bc726beb75a38afb6109"
+		},
+		{
+			"id" : "plugin_client::@bc726beb75a38afb6109"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,7 @@
+add_library(plugin_impl_one SHARED plugin_impl_one.cpp plugin_impl_one.hpp)
+target_compile_definitions(plugin_impl_one PRIVATE LIBRARY_EXPORT)
+
+add_library(plugin_impl_two SHARED plugin_impl_two.cpp plugin_impl_two.hpp)
+target_compile_definitions(plugin_impl_two PRIVATE LIBRARY_EXPORT)
+
+add_executable(plugin_client plugin_client.cpp)

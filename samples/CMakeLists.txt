@@ -1,0 +1,3 @@
+add_subdirectory(generic)
+add_subdirectory(runtime_link)
+add_subdirectory(plugin)
