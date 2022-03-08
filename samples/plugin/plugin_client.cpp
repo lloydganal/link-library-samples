@@ -4,13 +4,13 @@
 
 #include "plugin.hpp"
 
-typedef Plugin *(*fp_create_plugin)();
-typedef void (*fp_destroy_plugin)(Plugin **);
-
 struct PluginLib {
     HINSTANCE hinstance{nullptr};
     fp_create_plugin fn_create_plugin{nullptr};
     fp_destroy_plugin fn_destroy_plugin{nullptr};
+    fp_get_version_major fn_get_version_major{nullptr};
+    fp_get_version_minor fn_get_version_minor{nullptr};
+    fp_get_version_patch fn_get_version_patch{nullptr};
 
     bool load(const char *library_path) {
         hinstance = LoadLibrary(library_path);
@@ -27,7 +27,16 @@ struct PluginLib {
         if (fn_destroy_plugin == nullptr) {
             return false;
         }
+
+        fn_get_version_major = (fp_get_version_major)GetProcAddress(hinstance, "get_version_major");
+        if (fn_get_version_major == nullptr) {
+            return false;
+        }
         return true;
+    }
+
+    void unload() {
+        BOOL free = FreeLibrary(hinstance);
     }
 };
 
