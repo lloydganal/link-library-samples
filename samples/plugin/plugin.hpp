@@ -14,8 +14,5 @@ class Plugin {
 
 typedef Plugin *(*fp_create_plugin)();
 typedef void (*fp_destroy_plugin)(Plugin **);
-typedef const char *(*fp_get_version_major)();
-typedef const char *(*fp_get_version_minor)();
-typedef const char *(*fp_get_version_patch)();
 
 #endif  // PLUGIN_HPP

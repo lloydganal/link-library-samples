@@ -1,0 +1,4 @@
+add_library(plugin_c_one SHARED plugin_c_one.c)
+target_compile_definitions(plugin_c_one PRIVATE LIBRARY_EXPORT)
+
+add_executable(plugin_c_client plugin_c_client.c plugin_c_loader.c)
