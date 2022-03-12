@@ -1,0 +1,10 @@
+^C:\LAG\DEVELOPMENT\PROJECTS\MASTER\LINK-LIBRARY-SAMPLES\BUILD\CURRENT\CMAKEFILES\F591D300FA60B46BCC9E8E5ED7EE0C41\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/lag/development/projects/master/link-library-samples -BC:/lag/development/projects/master/link-library-samples/build/current --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/lag/development/projects/master/link-library-samples/build/current/link_library_sampes.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

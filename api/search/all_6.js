@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['library_5fapi_0',['LIBRARY_API',['../generic_8hpp.html#a211e2f722573bdfdbec477850e5679a4',1,'LIBRARY_API():&#160;generic.hpp'],['../plugin_8hpp.html#a211e2f722573bdfdbec477850e5679a4',1,'LIBRARY_API():&#160;plugin.hpp'],['../plugin__c_8h.html#a211e2f722573bdfdbec477850e5679a4',1,'LIBRARY_API():&#160;plugin_c.h'],['../runtime__linked__lib_8hpp.html#a211e2f722573bdfdbec477850e5679a4',1,'LIBRARY_API():&#160;runtime_linked_lib.hpp']]],
+  ['library_5fapi_5fdesc_1',['LIBRARY_API_DESC',['../generic_8hpp.html#a1b23afb4edfdac695534ad8af6f682fc',1,'generic.hpp']]],
+  ['load_2',['load',['../struct_plugin_loader.html#ab6684c9d9d769118bf0930832ff6805d',1,'PluginLoader']]],
+  ['load_5fplugin_5fc_3',['load_plugin_c',['../plugin__c__loader_8c.html#a4a0fb509ccd4721c738de3c4b2b3563e',1,'load_plugin_c(const char *path, PluginCLibrary *lib):&#160;plugin_c_loader.c'],['../plugin__c__loader_8h.html#a4a0fb509ccd4721c738de3c4b2b3563e',1,'load_plugin_c(const char *path, PluginCLibrary *lib):&#160;plugin_c_loader.c']]]
+];

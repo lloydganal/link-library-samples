@@ -1,0 +1,10 @@
+^C:\LAG\DEVELOPMENT\PROJECTS\MASTER\LINK-LIBRARY-SAMPLES\SAMPLES\RUNTIME_LINK\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/lag/development/projects/master/link-library-samples -BC:/lag/development/projects/master/link-library-samples/build/current --check-stamp-file C:/lag/development/projects/master/link-library-samples/build/current/samples/runtime_link/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

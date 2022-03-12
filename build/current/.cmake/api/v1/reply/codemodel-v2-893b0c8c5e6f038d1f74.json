@@ -1,0 +1,992 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "samples",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-samples-Debug-026e8de27727d40e5852.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "samples"
+				},
+				{
+					"build" : "samples/generic",
+					"jsonFile" : "directory-samples.generic-Debug-5f890938b164634026e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "samples/generic",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "samples/runtime_link",
+					"jsonFile" : "directory-samples.runtime_link-Debug-a4d332c81dda822e9b6a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "samples/runtime_link",
+					"targetIndexes" : 
+					[
+						2,
+						12,
+						13
+					]
+				},
+				{
+					"build" : "samples/plugin",
+					"jsonFile" : "directory-samples.plugin-Debug-4ccc8144c314d58cb98e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "samples/plugin",
+					"targetIndexes" : 
+					[
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "samples/plugin_c",
+					"jsonFile" : "directory-samples.plugin_c-Debug-e934c7479ad1d9a105ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "samples/plugin_c",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "link_library_sampes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-6dc3932a43751fe27b0f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-9df4a251d0049ca70769.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "compilation_time_lik::@be394b1c819308bda8b2",
+					"jsonFile" : "target-compilation_time_lik-Debug-41a07eea1f9eef7f67be.json",
+					"name" : "compilation_time_lik",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generic::@ad64ccd3aa4b211a1874",
+					"jsonFile" : "target-generic-Debug-6fe866db2527336a7e8f.json",
+					"name" : "generic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generic_lib::@ad64ccd3aa4b211a1874",
+					"jsonFile" : "target-generic_lib-Debug-cf6a51f9ebfb753ac181.json",
+					"name" : "generic_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generic_lib_static::@ad64ccd3aa4b211a1874",
+					"jsonFile" : "target-generic_lib_static-Debug-d811dabb3ca20c3f5f7d.json",
+					"name" : "generic_lib_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generic_static::@ad64ccd3aa4b211a1874",
+					"jsonFile" : "target-generic_static-Debug-56cd382f1fdf6b7b1300.json",
+					"name" : "generic_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "plugin_c_client::@9c9a2a1886efa60837f0",
+					"jsonFile" : "target-plugin_c_client-Debug-6d8199d9db390688efa1.json",
+					"name" : "plugin_c_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "plugin_c_one::@9c9a2a1886efa60837f0",
+					"jsonFile" : "target-plugin_c_one-Debug-e5260d5d2b766bcd15ee.json",
+					"name" : "plugin_c_one",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "plugin_client::@bc726beb75a38afb6109",
+					"jsonFile" : "target-plugin_client-Debug-833479a11a5aed1f85c8.json",
+					"name" : "plugin_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "plugin_impl_one::@bc726beb75a38afb6109",
+					"jsonFile" : "target-plugin_impl_one-Debug-5d3322afef712e0924f6.json",
+					"name" : "plugin_impl_one",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "plugin_impl_two::@bc726beb75a38afb6109",
+					"jsonFile" : "target-plugin_impl_two-Debug-d339c094c3266ee0e091.json",
+					"name" : "plugin_impl_two",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "runtime_link::@be394b1c819308bda8b2",
+					"jsonFile" : "target-runtime_link-Debug-c6e2ac1c97fe10145bbf.json",
+					"name" : "runtime_link",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "runtime_linked_lib::@be394b1c819308bda8b2",
+					"jsonFile" : "target-runtime_linked_lib-Debug-46edac198c5971fc582b.json",
+					"name" : "runtime_linked_lib",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "samples",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-samples-Release-026e8de27727d40e5852.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "samples"
+				},
+				{
+					"build" : "samples/generic",
+					"jsonFile" : "directory-samples.generic-Release-5f890938b164634026e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "samples/generic",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "samples/runtime_link",
+					"jsonFile" : "directory-samples.runtime_link-Release-a4d332c81dda822e9b6a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "samples/runtime_link",
+					"targetIndexes" : 
+					[
+						2,
+						12,
+						13
+					]
+				},
+				{
+					"build" : "samples/plugin",
+					"jsonFile" : "directory-samples.plugin-Release-4ccc8144c314d58cb98e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "samples/plugin",
+					"targetIndexes" : 
+					[
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "samples/plugin_c",
+					"jsonFile" : "directory-samples.plugin_c-Release-e934c7479ad1d9a105ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "samples/plugin_c",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "link_library_sampes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-6dc3932a43751fe27b0f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-9df4a251d0049ca70769.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "compilation_time_lik::@be394b1c819308bda8b2",
+					"jsonFile" : "target-compilation_time_lik-Release-b1f8b665225cd806b496.json",
+					"name" : "compilation_time_lik",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generic::@ad64ccd3aa4b211a1874",
+					"jsonFile" : "target-generic-Release-9c4dd59e8025b4d9b63b.json",
+					"name" : "generic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generic_lib::@ad64ccd3aa4b211a1874",
+					"jsonFile" : "target-generic_lib-Release-f332bf98feee8e33e84b.json",
+					"name" : "generic_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generic_lib_static::@ad64ccd3aa4b211a1874",
+					"jsonFile" : "target-generic_lib_static-Release-c7a496c5986ad5532249.json",
+					"name" : "generic_lib_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generic_static::@ad64ccd3aa4b211a1874",
+					"jsonFile" : "target-generic_static-Release-846636c01db410bd897b.json",
+					"name" : "generic_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "plugin_c_client::@9c9a2a1886efa60837f0",
+					"jsonFile" : "target-plugin_c_client-Release-c7938dbf861fbefbbce8.json",
+					"name" : "plugin_c_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "plugin_c_one::@9c9a2a1886efa60837f0",
+					"jsonFile" : "target-plugin_c_one-Release-7c49b125f681339dc455.json",
+					"name" : "plugin_c_one",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "plugin_client::@bc726beb75a38afb6109",
+					"jsonFile" : "target-plugin_client-Release-a55f2d11aac75a6354a3.json",
+					"name" : "plugin_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "plugin_impl_one::@bc726beb75a38afb6109",
+					"jsonFile" : "target-plugin_impl_one-Release-679c8d2efaedb17904a0.json",
+					"name" : "plugin_impl_one",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "plugin_impl_two::@bc726beb75a38afb6109",
+					"jsonFile" : "target-plugin_impl_two-Release-2ca196cc475e3a6f254d.json",
+					"name" : "plugin_impl_two",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "runtime_link::@be394b1c819308bda8b2",
+					"jsonFile" : "target-runtime_link-Release-5893f5b76d3dd208bcd4.json",
+					"name" : "runtime_link",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "runtime_linked_lib::@be394b1c819308bda8b2",
+					"jsonFile" : "target-runtime_linked_lib-Release-042b5cbae82a35bbe86a.json",
+					"name" : "runtime_linked_lib",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "samples",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-samples-MinSizeRel-026e8de27727d40e5852.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "samples"
+				},
+				{
+					"build" : "samples/generic",
+					"jsonFile" : "directory-samples.generic-MinSizeRel-5f890938b164634026e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "samples/generic",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "samples/runtime_link",
+					"jsonFile" : "directory-samples.runtime_link-MinSizeRel-a4d332c81dda822e9b6a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "samples/runtime_link",
+					"targetIndexes" : 
+					[
+						2,
+						12,
+						13
+					]
+				},
+				{
+					"build" : "samples/plugin",
+					"jsonFile" : "directory-samples.plugin-MinSizeRel-4ccc8144c314d58cb98e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "samples/plugin",
+					"targetIndexes" : 
+					[
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "samples/plugin_c",
+					"jsonFile" : "directory-samples.plugin_c-MinSizeRel-e934c7479ad1d9a105ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "samples/plugin_c",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "link_library_sampes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-6dc3932a43751fe27b0f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-9df4a251d0049ca70769.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "compilation_time_lik::@be394b1c819308bda8b2",
+					"jsonFile" : "target-compilation_time_lik-MinSizeRel-1866d47a8eaa35035112.json",
+					"name" : "compilation_time_lik",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generic::@ad64ccd3aa4b211a1874",
+					"jsonFile" : "target-generic-MinSizeRel-9289093cead285d28c65.json",
+					"name" : "generic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generic_lib::@ad64ccd3aa4b211a1874",
+					"jsonFile" : "target-generic_lib-MinSizeRel-a75b4d93279a3b0e36d2.json",
+					"name" : "generic_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generic_lib_static::@ad64ccd3aa4b211a1874",
+					"jsonFile" : "target-generic_lib_static-MinSizeRel-d00d1c1c6edc0b3a1862.json",
+					"name" : "generic_lib_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generic_static::@ad64ccd3aa4b211a1874",
+					"jsonFile" : "target-generic_static-MinSizeRel-c47e563feb3555ebb558.json",
+					"name" : "generic_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "plugin_c_client::@9c9a2a1886efa60837f0",
+					"jsonFile" : "target-plugin_c_client-MinSizeRel-9914288542c0d1217a26.json",
+					"name" : "plugin_c_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "plugin_c_one::@9c9a2a1886efa60837f0",
+					"jsonFile" : "target-plugin_c_one-MinSizeRel-4f85fd9d2c89432f4c7f.json",
+					"name" : "plugin_c_one",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "plugin_client::@bc726beb75a38afb6109",
+					"jsonFile" : "target-plugin_client-MinSizeRel-7112e377f37d5bb18ffa.json",
+					"name" : "plugin_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "plugin_impl_one::@bc726beb75a38afb6109",
+					"jsonFile" : "target-plugin_impl_one-MinSizeRel-1c7ee3fd3b28ae03d934.json",
+					"name" : "plugin_impl_one",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "plugin_impl_two::@bc726beb75a38afb6109",
+					"jsonFile" : "target-plugin_impl_two-MinSizeRel-380be3b981a7b6b81bd0.json",
+					"name" : "plugin_impl_two",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "runtime_link::@be394b1c819308bda8b2",
+					"jsonFile" : "target-runtime_link-MinSizeRel-747a9c7855101e872402.json",
+					"name" : "runtime_link",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "runtime_linked_lib::@be394b1c819308bda8b2",
+					"jsonFile" : "target-runtime_linked_lib-MinSizeRel-1a7fe7865232c15e81d5.json",
+					"name" : "runtime_linked_lib",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "samples",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-samples-RelWithDebInfo-026e8de27727d40e5852.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "samples"
+				},
+				{
+					"build" : "samples/generic",
+					"jsonFile" : "directory-samples.generic-RelWithDebInfo-5f890938b164634026e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "samples/generic",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "samples/runtime_link",
+					"jsonFile" : "directory-samples.runtime_link-RelWithDebInfo-a4d332c81dda822e9b6a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "samples/runtime_link",
+					"targetIndexes" : 
+					[
+						2,
+						12,
+						13
+					]
+				},
+				{
+					"build" : "samples/plugin",
+					"jsonFile" : "directory-samples.plugin-RelWithDebInfo-4ccc8144c314d58cb98e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "samples/plugin",
+					"targetIndexes" : 
+					[
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "samples/plugin_c",
+					"jsonFile" : "directory-samples.plugin_c-RelWithDebInfo-e934c7479ad1d9a105ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "samples/plugin_c",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "link_library_sampes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-6dc3932a43751fe27b0f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-9df4a251d0049ca70769.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "compilation_time_lik::@be394b1c819308bda8b2",
+					"jsonFile" : "target-compilation_time_lik-RelWithDebInfo-a7a03a16beff0ca98cdb.json",
+					"name" : "compilation_time_lik",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generic::@ad64ccd3aa4b211a1874",
+					"jsonFile" : "target-generic-RelWithDebInfo-9f4be615ca8743984215.json",
+					"name" : "generic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generic_lib::@ad64ccd3aa4b211a1874",
+					"jsonFile" : "target-generic_lib-RelWithDebInfo-d02232c096cff3c09415.json",
+					"name" : "generic_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generic_lib_static::@ad64ccd3aa4b211a1874",
+					"jsonFile" : "target-generic_lib_static-RelWithDebInfo-e03503ce88a702ebcbee.json",
+					"name" : "generic_lib_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generic_static::@ad64ccd3aa4b211a1874",
+					"jsonFile" : "target-generic_static-RelWithDebInfo-4b9c216aad1e20e7442c.json",
+					"name" : "generic_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "plugin_c_client::@9c9a2a1886efa60837f0",
+					"jsonFile" : "target-plugin_c_client-RelWithDebInfo-85bb60e12494dcd0747e.json",
+					"name" : "plugin_c_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "plugin_c_one::@9c9a2a1886efa60837f0",
+					"jsonFile" : "target-plugin_c_one-RelWithDebInfo-e6768786d21819e7c89c.json",
+					"name" : "plugin_c_one",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "plugin_client::@bc726beb75a38afb6109",
+					"jsonFile" : "target-plugin_client-RelWithDebInfo-088c6969c762f4e545eb.json",
+					"name" : "plugin_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "plugin_impl_one::@bc726beb75a38afb6109",
+					"jsonFile" : "target-plugin_impl_one-RelWithDebInfo-ac6a1a54e7a2c367a589.json",
+					"name" : "plugin_impl_one",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "plugin_impl_two::@bc726beb75a38afb6109",
+					"jsonFile" : "target-plugin_impl_two-RelWithDebInfo-7d5625106f1c1eec06b7.json",
+					"name" : "plugin_impl_two",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "runtime_link::@be394b1c819308bda8b2",
+					"jsonFile" : "target-runtime_link-RelWithDebInfo-b73e8baa55973d2bdb49.json",
+					"name" : "runtime_link",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "runtime_linked_lib::@be394b1c819308bda8b2",
+					"jsonFile" : "target-runtime_linked_lib-RelWithDebInfo-d3ff34e43d6af2310623.json",
+					"name" : "runtime_linked_lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/lag/development/projects/master/link-library-samples/build/current",
+		"source" : "C:/lag/development/projects/master/link-library-samples"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

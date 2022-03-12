@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\lag\development\projects\master\link-library-samples\samples\plugin\plugin_impl_two.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\lag\development\projects\master\link-library-samples\samples\plugin\plugin_impl_two.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\lag\development\projects\master\link-library-samples\samples\plugin\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2E12987F-117A-3359-B1E9-4AA4926ECE94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{32E5EC07-C480-34FD-A106-40BD4A1F53CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
