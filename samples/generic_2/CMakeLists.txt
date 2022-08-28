@@ -1,0 +1,13 @@
+add_library(generic_2_lib SHARED generic.cpp generic.hpp)
+target_compile_definitions(generic_2_lib PRIVATE BUILD_SHARED_LIB)
+
+add_library(generic_2_lib_static STATIC generic.cpp generic.hpp)
+
+add_executable(generic_2 generic_main.cpp)
+target_link_libraries(generic_2 generic_2_lib)
+target_compile_definitions(generic_2 PRIVATE IMPORT_DLL)
+
+add_executable(generic_2_runtime_link generic_runtime_link_main.cpp)
+
+add_executable(generic_2_static generic_main.cpp)
+target_link_libraries(generic_2_static generic_2_lib_static)

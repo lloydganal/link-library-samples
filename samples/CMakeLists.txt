@@ -1,4 +1,6 @@
 add_subdirectory(generic)
+add_subdirectory(generic_2)
 add_subdirectory(runtime_link)
 add_subdirectory(plugin)
+add_subdirectory(plugin_singelton)
 add_subdirectory(plugin_c)
